@@ -7,28 +7,29 @@
 
     <meta name="description" content="カブドラのプロトタイプです">
   </head>
-  <body>
+  <body class="fontset">
     <header class="headroom" data-headroom>
       <div class="relative">
         <img src="img/bg-header.png" alt="">
-        <p class="absolute">カブドラ</p>
+        <img id="hamburger" class="absolute" src="img/btn-hamburger.png" alt="">
+        <p id="title" class="absolute">カブドラ</p>
       </div>
     </header>
     <div class="contents">
       <div class="top-image">
-        <img src="http://placehold.jp/620x500.png">
+        <img class="relative" src="http://placehold.jp/620x500.png">
         <div class="words-on-image">
-          <h1>お気に入り選手を見つけて投資しよう!</h1>
+          <h1 id="investment-text" class="absolute" align="center">お気に入り選手を見つけて投資しよう!</h1>
         </div>
       </div>
 
       <div class="SNS-login">
-        <a href="">
+        <a href="http://www.google.com" target="_blank">
           <div class="twitter-login">
             <img src="./img/loginbutton-twitter.png" width="620" height="100">
           </div>
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/?_rdr=p" target="_blank">
           <div class="facebook-login" >
             <img src="./img/loginbutton-facebook.png" width="620" height="100">
           </div>

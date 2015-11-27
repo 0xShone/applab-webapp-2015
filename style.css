@@ -1,17 +1,34 @@
-body { background-color: gray; }
+body {
+  background-color: white;
+}
+
+.fontset {
+  font-family: "ＭＳ Ｐゴシック",sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+}
 
 .relative {
-    position: relative;
-    top: 0;
-    left:0;
-    right:0;
+  position: relative;
+  top: 0;
+  left:0;
+  right:0;
 }
 .absolute {
-    position: absolute;
-    top: 0;
-    left:0;
-    right:0;
-    font-size: 300%;
+  position: absolute;
+
+}
+#title {
+  margin-right: 0px;
+  color: white;
+  top: -30px;
+  font-size:300%;
+  left:10px;
+}
+
+#hamburger {
+  top: 40px;
+  right: 30px;
 }
 .headroom {
   position: fixed;
@@ -19,6 +36,19 @@ body { background-color: gray; }
   left:0;
   right:0;
   transition: all .2s ease-in-out;
+  z-index: 100;
 }
-.headroom--unpinned { top: -100px;}
-.headroom--pinned { top: 0px;}
+#investment-text{
+  color: white;
+  font-size: 300%;
+  top: 15%;
+  left: 4%;
+}
+
+
+.headroom--unpinned {
+  top: -100px;
+}
+.headroom--pinned {
+  top: 0px;
+}
