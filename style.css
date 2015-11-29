@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .fontset {
@@ -56,6 +56,11 @@ body {
   top: 0px;
 }
 
+.SNS-login {
+  width: 86%;
+  margin: 0 auto;
+}
+
 #twitter-login-btn {
 	background-color: #00aced;
 	border: 1px solid #DDD;
@@ -64,7 +69,7 @@ body {
 	-webkit-border-radius: 8px;
 	color: white;
   font-size: 250%;
-	width: 620px;
+	width: 100%;
 	padding: 10px 0;
 }
 
@@ -76,6 +81,56 @@ body {
 	-webkit-border-radius: 8px;
 	color: white;
   font-size: 250%;
-	width: 620px;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.player-recommend {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.player-btn{
+  float: left;
+  background-color: white;
+  margin: 1%;
+  width: 44%;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  padding: 10px 10px;
+}
+
+.player-img {
+  width: 100%;
+}
+
+.player-elem {
+  font-size: 150%;
+}
+
+.player-name {
+  color: black;
+}
+#player-status-verygood {
+  width: 10%;
+  float:left;
+}
+
+#player-status-point {
+  color: indianred;
+  font-weight: bold;
+}
+
+#player-investment-btn {
+  background-color: darkorange;
+	border: 1px solid #DDD;
+	border-radius: 50px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+  font-size: 100%;
+	color: white;
+  width: 100%;
 	padding: 10px 0;
 }
